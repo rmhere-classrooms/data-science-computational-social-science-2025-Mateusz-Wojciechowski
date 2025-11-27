@@ -31,7 +31,7 @@ hist(degree(g),
      col="lightblue")
 
 
-# since p is quite high (0.05) there will most likely be 1 cluster
+# after a few runs in most cases there are 1 or 2 cluster
 cl <- clusters(g)
 print(paste("Amount of clusters:", cl$no))
 
